@@ -110,6 +110,46 @@ body {
   user-select: none;
 }
 
+.docs-reference {
+  margin: 14px 0 0;
+  font-size: 0.875rem;
+  color: var(--text-muted);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+}
+
+.docs-reference-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  color: var(--dot-latest);
+  font-weight: 500;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.16s ease, color 0.16s ease;
+}
+
+.docs-reference-link:hover {
+  border-bottom-color: var(--dot-latest);
+}
+
+.docs-reference-link:focus-visible {
+  outline: 2px solid var(--dot-latest);
+  outline-offset: 2px;
+  border-radius: 3px;
+}
+
+.docs-reference-arrow {
+  font-size: 0.85em;
+  transition: transform 0.16s ease;
+}
+
+.docs-reference-link:hover .docs-reference-arrow {
+  transform: translate(1.5px, -1.5px);
+}
+
 /* Timeline */
 .timeline {
   list-style: none;
