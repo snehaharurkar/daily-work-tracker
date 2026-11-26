@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Daily Work Log</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="site-header">
+        <p class="eyebrow">Office Work Log</p>
+        <h1 class="site-title">Daily Work Tracker</h1>
+        <p class="site-subtitle">
+          A clean daily record of completed guides, integrations, and live projects.
+        </p>
+        <div class="summary-strip" id="summary-strip" aria-label="Work summary"></div>
+      </header>
+
+      <main class="timeline-section" aria-label="Daily work timeline">
+        <ol class="timeline" id="timeline"></ol>
+      </main>
+
+      <footer class="site-footer">
+        <p id="footer-note">Click any entry to open its live app or guide.</p>
+      </footer>
+    </div>
+
+    <script src="./work-data.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
