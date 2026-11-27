@@ -4,6 +4,16 @@
 
 window.WORK_LOG = [
   {
+    date: "2026-11-27",
+    title: "Social Media Manager — Telegram Integration",
+    summary:
+      "Updated the Social Media Manager web application with Telegram integration.",
+    type: "Live Web App",
+    kind: "app",
+    url: "https://kaleidoscopic-granita-e8cc8a.netlify.app/",
+    sourceLabel: "kaleidoscopic-granita-e8cc8a.netlify.app",
+  },
+  {
     date: "2026-11-26",
     title: "Social Media Manager",
     summary:
